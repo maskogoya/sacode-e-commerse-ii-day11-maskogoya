@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SaZhop</title>
+
+<!-- Bootstrap CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+<!-- Font Awesome CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Google Font -->
+<link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+
+<!-- Style -->
+<link href='./assets/css/style.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+     <!-- TOP BAR START-->
+     <div class="bg-success text-light border-bottom border-5 border-warning sticky-top shadow">
+        
+        <!-- .container start -->
+        <div class="container">
+            <!-- .row start -->
+            <div class="row py-3">
+
+                <!-- .col start -->
+                <div class="col-lg-12">
+
+                    <div class="d-lg-flex flex-xl-wrap align-items-center justify-content-lg-between justify-content-xl-between">
+                        
+                        <div class="text-center">
+                            <a href="#" class="text-decoration-none link-warning me-3"><i class="fa-solid fa-phone"></i> +62 821 9955-8191</a>
+                            <a href="#" class="text-decoration-none link-warning me-3"><i class="fa-solid fa-envelope"></i> mail@sazhop.com</a>
+                        </div>
+
+                        <div class="d-flex flex-wrap justify-content-center text-center">
+                            <a href="login.html" class="link-warning fw-bolder text-decoration-none me-3"><i class="fa-solid fa-right-to-bracket me-1"></i> Masuk</a>    
+                            <a href="daftar.html" class="link-warning fw-bolder text-decoration-none"><i class="fa-solid fa-user-plus me-1"></i> Daftar</a>    
+                        </div>   
+                        
+                    </div>  
+
+                    
+
+                </div>
+                <!-- .col end -->
+
+            </div>
+            <!-- .row end -->
+
+        </div>
+        <!-- .container end -->
+
+    </div>
+    <!-- TOP BAR END -->
+
+
+    <!-- HEADER START -->
+    <div class="bg-warning py-5 mb-5 shadow-lg border-bottom border-5 border-success">
+
+        <!-- .container start -->
+        <div class="container">
+
+            <!-- .row start -->
+            <div class="row">
+
+                <!-- .col start -->
+                <div class="col-12">
+
+                    <div class="d-flex flex-wrap justify-content-center">
+                        <!-- logo start -->
+                        <h1 class="display-1 fw-bolder text-center">
+
+                            <!-- link logo start-->
+                            <a href="index.html" class="link-success text-decoration-none">
+
+                                <!-- icon daun pake font awesome -->
+                                <i class="fa-solid fa-seedling me-1"></i>
+
+                                <!-- teks judul-->
+                                <span>SaZhop</span>
+
+                            </a>
+                            <!-- link logo end -->
+
+                        </h1>
+                        <!-- logo end -->
+
+                        <!-- teks deskripsi -->
+                        <p class="text-muted mt-auto ms-3">Toko Sayur & Buah Segar</p>
+                    </div>
+
+                </div>
+                <!-- .col end -->
+
+            </div>
+            <!-- .row end -->
+
+
+            <!-- .row start -->
+            <div class="row py-3 text-secondary">
+
+                <!-- .col start -->
+                <div class="col-lg-12 text-secondary">
+
+                    <div class="d-lg-flex flex-xl-wrap align-items-center justify-content-center">
+                        
+                        <!-- .navbar start -->
+                        <div class="navbar-expand-lg text-center">
+                            <ul class="navbar-nav">
+                                <li class="nav-item px-2">
+                                    <a href="index.html" class="nav-link link-success active fw-bolder">Beranda</a>
+                                </li>
+
+                                <li class="nav-item px-2 dropdown">
+
+                                    <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Produk</a>
+
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="produk.html" class="dropdown-item link-secondary">Sayur & Buah</a>
+                                        </li>
+                                        <li>
+                                            <a href="produk.html" class="dropdown-item link-secondary">Kopi & Teh</a>
+                                        </li>
+                                        <li>
+                                            <a href="produk.html" class="dropdown-item link-secondary">Daging</a>
+                                        </li>
+                                        <li>
+                                            <a href="produk.html" class="dropdown-item link-secondary">Bumbu</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item px-2">
+                                    <a href="daftar-keinginan.html" class="nav-link link-secondary">Daftar Keinginan</a>
+                                </li>
+                                <li class="nav-item px-2">
+                                    <a href="keranjang-belanja.html" class="nav-link link-secondary">Keranjang Belanja</a>
+                                </li>
+
+                                
+        
+                            </ul>
+                        </div>
+                        <!-- .navbar end -->    
+
+                    </div>                    
+                </div>
+                <!-- .col end -->
+            </div>
+            <!-- .row end -->
+            
+            <!-- .row start -->
+            <div class="row py-3">
+
+                <!-- .col start -->
+                <div class="col-12">
+
+                    <!-- form start -->
+                    <form class="">
+                        <div class="input-group input-group-lg">
+
+                            <!-- input text -->
+                            <input type="text" class="form-control form-control-sm px-5 py-4 shadow" placeholder="Nama produk..."
+                                aria-label="Nama produk..." aria-describedby="button-addon2">
+
+                            <!-- tombol cari -->
+                            <button class="btn btn-success fw-bolder px-lg-5 text-warning" type="button" id="button-addon2">
+                                <i class="fa-solid fa-search me-2"></i> Cari</button>
+                        </div>
+                    </form>
+                    <!-- form end -->
+
+                </div>
+                <!-- .col end -->
+                
+            </div>
+            <!-- .row end -->
+
+        </div>
+        <!-- .container end -->
+
+    </div>
+    <!-- HEADER END -->
+
+   
+
+<!-- KERANJANG BELANJA START-->
+<div class="py-5">
+
+<!-- container start -->
+<div class="container my-4">
+  <!-- row start -->
+  <div class="row">
+      
+      <!-- col start -->
+      <div class="col-lg-6 mx-auto text-center">
+          
+          <h1 class="display-4 fw-bolder text-success">
+              <i class="fa-solid fa-cart-shopping me-6"></i>
+           Keranjang Belanja
+          </h1>
+
+          <p class="text-muted pt-4">
+             Berbagai Jenis Produk Sayuran Dan Buahan Segar <br>
+             Dengan Harga Yang Sangat Terjangkau. 
+          </p>
+
+      </div>
+      <!-- col end -->
+
+  </div>
+  <!-- row end -->
+
+  <!-- row start -->
+  <div class="row">
+
+  <!--col start  -->
+  <div class="col-xl-8 col-lg-8">
+
+      <!-- card start -->
+      <div class="card">
+         
+      <!-- card body start -->
+      <div class="card-body">
+
+        <div class="d-flex text-muted py-3">
+          <p class="me-auto">Ada<b> 3 produk</b> di dalam keranjang</p>
+          <a href="" class="text-decoration-none link-success"><i class="fa-solid fa-trash me-2"> </i>kosongkan keranjang</a>
+        </div>
+          
+          <!-- tabel start -->
+         <table class="table table-triped table-hover">
+             
+              <thead>
+                  <tr>
+                    
+                      <th class="bg-success text-warning py-3">Produk</th>
+                      <th class="bg-success text-warning py3">Harga</th>
+                      <th class="bg-success text-center text-warning py-3">Hapus</th>
+                  
+                  </tr>
+              </thead>
+
+              
+
+                  <!--  products item start -->
+                  <tbody>
+                  <tr>
+
+                      <td class="d-flex gap-4 ">
+                          <div>
+                              <input type="checkbox" class="form-check-input">
+                          </div>
+                          <div>
+                              <img src="./assets/img/thumbnail-1.jpg" width="150px;" alt="products image" class="img img thumbnail-1">
+                          </div>
+                          <div>
+                              <h5 class="fw-bolder text-success">Wortel</h5>
+                              <small>
+                              <a href="#">
+
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-solid fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-solid fa-star"></i>  
+                                  </a>
+                                 
+                                  
+                              </small>
+                          </div>
+                      </td>
+                      <td class="fw-bolder">
+                          Rp, 20.000
+                      </td>
+                      <td class="text-center">
+                          <a href="#" class="link-success">
+                              <i class="fa-solid fa-trash"></i>
+                          </a>
+                      </td>
+                  </tr>
+
+                  <!-- products item end -->
+                  
+                  <!--  products item start -->
+                  <tr>
+
+                      <td class="d-flex gap-4 ">
+                          <div>
+                              <input type="checkbox" class="form-check-input">
+                          </div>
+                          <div>
+                              <img src="./assets/img/thumbnail-2.jpg" width="150px;" alt="products image" class="img img thumbnail-1">
+                          </div>
+                          <div>
+                              <h5 class="fw-bolder text-success">Paprika</h5>
+                              <small>
+                              <a href="#">
+
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-solid fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-solid fa-star"></i>  
+                                  </a>
+                                 
+                                  
+                              </small>
+                          </div>
+                      </td>
+                      <td class="fw-bolder">
+                          Rp, 20.000
+                      </td>
+                      <td class="text-center">
+                          <a href="#" class="link-success">
+                              <i class="fa-solid fa-trash"></i>
+                          </a>
+                      </td>
+                  </tr>
+                  <!-- products item end -->
+                  
+                   <!-- products item end -->
+                  
+                  <!--  products item start -->
+                  <tr>
+
+                      <td class="d-flex gap-4 ">
+                          <div>
+                              <input type="checkbox" class="form-check-input">
+                          </div>
+                          <div>
+                              <img src="./assets/img/thumbnail-3.jpg" width="150px;" alt="products image" class="img img thumbnail-1">
+                          </div>
+                          <div>
+                              <h5 class="fw-bolder text-success">Jus Mangga</h5>
+                              <small>
+                              <a href="#">
+
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-regular fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-solid fa-star"></i>  
+                                  </a>
+                                  <a href="#" class="link-success text-decoration-none">
+                                     <i class="fa-solid fa-star"></i>  
+                                  </a>
+                                 
+                                  
+                              </small>
+                          </div>
+                      </td>
+                      <td class="fw-bolder">
+                          Rp, 20.000
+                      </td>
+                      <td class="text-center">
+                          <a href="#" class="link-success">
+                              <i class="fa-solid fa-trash"></i>
+                          </a>
+                      </td>
+                  </tr>
+                  <!-- products item end -->
+                  
+
+              </tbody>
+
+              <tfoot>
+                  <tr>
+                      <th>Produk</th>
+                      <th>Harga</th>
+                      <th class="text-center">Hapus</th>
+                  </tr>
+              </tfoot>
+
+          </table>
+          <!-- tabel end -->
+
+      </div>
+      <!-- card body end -->
+
+      </div>
+      <!-- card end -->
+  </div>
+  <!-- col end -->
+
+  <!-- col start -->
+      <div class="col-xl-4 col-lg-4">
+
+         <!-- list-group start -->
+         <ul class="list-group">
+             <li class="list-group-item p-4 d-flex justify-content-between">
+                 <div>
+                     Sub Total
+                 </div>
+                 <div class="fw-bolder text-success">
+                     Rp. 20.00
+                 </div>
+             </li>
+             <li class="list-group-item p-4 d-flex justify-content-between">
+                 <div>
+                     Pengiriman
+                 </div>
+                 <div class="fw-bolder text-success">
+                     Free
+                 </div>
+             </li>
+             <li class="list-group-item p-4 d-flex justify-content-between">
+                 <div>
+                     Tujuan
+                 </div>
+                 <div class="fw-bolder text-success">
+                     Biak
+                 </div>
+                <li class="list-group-item p-4 d-flex justify-content-between bg-success">
+                <div class="bg-success text-warning fw-bolder">
+                     Total
+                 </div>
+                 <div class="fw-bolder text-success text-warning">
+                     Rp. 20.000
+                 </div>
+        
+             </li>
+
+             <button class="btn btn-lg btn-success text-warning fs-4 fw-bolder py-4 mt-3">
+              <i class="fa-solid fa-cart-shopping me-3 "></i>
+              Proses Sekarang
+              </button>
+         </ul>
+         <!-- list-group end -->
+
+      </div>
+  <!-- col end -->
+
+  </div>
+  <!-- row end -->
+
+</div>
+<!-- container end -->
+
+</div>
+<!-- KERANJANG BELANJA END -->
+
+
+</tbody>
+</table>
+<!-- .table end -->
+
+<!-- .row start -->
+<div class="row">
+  <!-- .col start -->
+  <div class="col-12">
+    <nav aria-label="navigation">
+      <ul class="pagination pagination-lg justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link">Kembali</a>
+        </li>
+        <li class="page-item"><a class="page-link link-light bg-success" href="#">1</a></li>
+        <li class="page-item"><a class="page-link link-success" href="#">2</a></li>
+        <li class="page-item"><a class="page-link link-success" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link link-success" href="#">Selanjutnya</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- .col end -->
+</div>
+<!-- .row end -->
+</div>
+<!-- .container end -->
+</div>
+
+
+
+
+<!-- FOOTER START -->
+<div class="bg-success border-top border-warning border-5 py-5">
+
+    <!-- .container start -->
+    <div class="container">
+
+        <!-- .row start -->
+        <div class="row text-light">
+            <!-- .col start -->
+            <div class="col-lg-4 text-center text-lg-start">
+                <p>Copyright &copy 2022 - <b class="fw-bold text-warning">SaZhop</b></p>
+            </div>
+            <!-- .col end -->
+            <!-- .col start -->
+            <div class="col-lg-4 text-center text-lg-center">
+
+                Temukan kami di :
+
+                <a href="#" class="link-warning text-decoration-none mx-1 fs-6">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="#" class="link-warning text-decoration-none mx-1 fs-6">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="#" class="link-warning text-decoration-none mx-1 fs-6">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+
+                <a href="#" class="link-warning text-decoration-none mx-1 fs-6">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+
+            </div>
+            <!-- .col end -->
+            <!-- .col start -->
+            <div class="col-lg-4 text-center text-lg-end mt-2 mt-lg-0">
+                <p>Didukung oleh <a href="https://sacode.web.id" class="link-warning text-decoration-none fw-bolder"
+                        target="_blank" title="Papua Tech Community">SaCode</a></p>
+            </div>
+            <!-- .col end -->
+        </div>
+        <!-- .row end -->
+
+    </div>
+    <!-- .container end -->
+
+</div>
+<!-- FOOTER END -->
+
+<!-- Bootstrap JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
